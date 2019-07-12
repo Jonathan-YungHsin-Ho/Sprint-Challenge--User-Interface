@@ -93,7 +93,7 @@ header nav a {
 header nav a:hover {
     color: white;
     background: black;
-    padding: 5px;
+    padding: 4px;
     transform: translateY(-3px);
 }
 
@@ -223,6 +223,12 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+    transition: transform 0.3s ease-in-out;
+}
+
+footer nav a:hover {
+    text-decoration: underline;
+    transform: translateX(7px);
 }
 
 /* About Page Styles */
