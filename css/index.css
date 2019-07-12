@@ -90,7 +90,7 @@ header nav a {
 }
 
 header nav a:hover {
-
+    text-decoration: underline;
 }
 
 /* Main Image Styles */
@@ -219,4 +219,16 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* About Page Styles */
+.top-content .text-container.about-page {
+    width: 100%;
+    padding: 0 3%;
+    padding-bottom: 20px;  
+}
+
+.bottom-content.about-page {
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
